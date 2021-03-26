@@ -1,6 +1,7 @@
 # Logistic Regression
+```
 Logistic Regression is a algorithm to predict a categorical results.
-
+```
 
 ## Usage
 ```
@@ -68,5 +69,7 @@ lgr.predict(X_test.loc[0:2])) # multiple prediction
 ```
 
 ## License
+```
 Name: Tam Pa Yan 
 UID: 3035573874
+```
