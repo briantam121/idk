@@ -3,10 +3,11 @@ Logistic Regression is a algorithm to predict a categorical results.
 
 
 ## Usage
+```python
 I used jupyer notebook with python language with this assignment.
 Open the logistic_regression.ipynb to run the class cell first.
 Then, types the following commands for creating logistic regression model.
-
+```
 ### Initilize dataset
 ```python
 #import libraries
