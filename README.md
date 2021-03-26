@@ -76,7 +76,7 @@ Random Forest is a algorithm to predict a categorical results by adding random n
 ## Usage
 ```
 I used jupyer notebook with python language with this assignment.
-Open the logistic_regression_algorithm.ipynb to run the class cell first.
+Open the random_forest_algorithm.ipynb to run the class cell first.
 Then, types the following commands for creating random model.
 ```
 ### Initilize dataset 
@@ -121,7 +121,6 @@ model.predict(X_test)
 model.predict(X_test.loc[1])) # single prediction
 model.predict(X_test.loc[0:2])) # multiple prediction
 ```
-
 
 ## License
 ```
