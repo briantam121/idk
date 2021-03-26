@@ -8,7 +8,7 @@ I used jupyer notebook with python language with this assignment.
 Open the logistic_regression.ipynb to run the class cell first.
 Then, types the following commands for creating logistic regression model.
 ```
-### Initilize dataset
+### Initilize dataset (with continuous datasets)
 ```python
 #import libraries
 import pandas as pd
