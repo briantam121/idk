@@ -10,7 +10,7 @@ Logistic Regression is a algorithm to predict a categorical results.
 #import libraries
 import pandas as pd
 import numpy as np
-#read .csv file
+#read .csv file (iris data as example)
 X_train = pd.read_csv("iris_X_train.csv")
 X_test = pd.read_csv("iris_X_test.csv")
 y_train = pd.read_csv("iris_y_train.csv")
