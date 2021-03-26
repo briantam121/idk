@@ -1,17 +1,11 @@
-# Foobar
+# Logistic Regression
 
-Foobar is a Python library for dealing with word pluralization.
+Logistic Regression is a algorithm to predict a categorical results.
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
 
 ## Usage
 
+### Initilise
 ```python
 import foobar
 
