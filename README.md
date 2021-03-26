@@ -7,17 +7,37 @@ I used jupyer notebook with python language with this assignment.
 Open the logistic_regression.ipynb to run the class cell first.
 Then, types the following commands for creating logistic regression model.
 
-### Initilize data
+### Initilize dataset
 ```python
 #import libraries
 import pandas as pd
 import numpy as np
-#read .csv file (iris data as example)
+#read .csv file (iris dataset as example)
 X_train = pd.read_csv("iris_X_train.csv")
 X_test = pd.read_csv("iris_X_test.csv")
 y_train = pd.read_csv("iris_y_train.csv")
 y_test = pd.read_csv("iris_y_test.csv")
 ```
+
+### Initilize dataset (with catagorical datasets)
+```python
+#import libraries
+import pandas as pd
+import numpy as np
+
+#read .csv file (car dataset as example)
+X_train = pd.read_csv("car_X_train.csv")
+X_test = pd.read_csv("car_X_test.csv")
+y_train = pd.read_csv("car_y_train.csv")
+y_test = pd.read_csv("car_y_test.csv")
+
+# encoder function to create encoded dataset i.e. convert string data into categorical numeric values
+# dummies function to create dummies dataset i.e. convert string data into categorical numeric arrays
+# it will print the dictionary of X and y dataset
+y_train,y_test = lgr.encoder(y_train,y_test)
+X_train,X_test = lgr.dummies(X_train,X_test)
+```
+
 ### Initilize Logistic Regression
 ```python
 # learning_rate and n_iters is learning rate and number of iterations respectively
